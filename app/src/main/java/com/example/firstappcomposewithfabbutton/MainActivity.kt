@@ -26,7 +26,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ->
             FirstAppComposeWithFabButtonTheme {
                 var name by remember { mutableStateOf("Android") }
                 Scaffold(
